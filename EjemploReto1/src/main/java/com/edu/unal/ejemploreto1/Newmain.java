@@ -19,6 +19,9 @@ public class Newmain {
      */
     
     public static void main(String[] args) {
+        
+        Ventanas ventana= new Ventanas();
+        ventana.cambiar();
         System.out.println("Digite la cantidad de productos:");//Imprimir pantalla - print()
         int cantidad;
         Scanner teclado = new Scanner(System.in);
